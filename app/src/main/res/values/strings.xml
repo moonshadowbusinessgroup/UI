@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">UI</string>
+    <string name="title_activity_u6_">U6_Ac</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="json">
+        [
+{
+	"name": "Daniel William",
+	"message":"Hey! How can i change course?",
+	"image":"R.drawable.g1"
+	"time":"00:00 AM"
+},
+{
+	"name": "Kevin Doyle Ben",
+	"message":"Sound good to me!",
+	"image":"R.drawable.g2"
+	"time":"00:00 AM"
+},
+{
+	"name": "Dino Waelchi",
+	"message":"Can i participates new physics test?",
+	"image":"R.drawable.g3"
+	"time":"00:00 AM"
+},
+{
+	"name": "Mike West",
+	"image":"R.drawable.g5"
+},
+{
+	"name": "Victor Black",
+	"message":"Which kind of package &amp; offers provide?",
+	"image":"R.drawable.b11"
+	"time":"00:00 AM"
+},
+        {
+	"name": "Ben Jhonson",
+	"message":"Hi Mike, what is subscription plan?",
+	"image":"R.drawable.b22"
+	"time":"00:00 AM"
+},
+		{
+	"name": "Edward Kelly",
+	"message":"When will i do next course?",
+	"image":"R.drawable.b3"
+	"time":"00:00 AM"
+},
+		{
+	"name": "Thomas",
+	"image":"R.drawable.b5"
+}
+]
+    </string>
+</resources>

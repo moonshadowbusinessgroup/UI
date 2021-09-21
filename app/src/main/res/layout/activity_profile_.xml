@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+              <androidx.constraintlayout.widget.ConstraintLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+
+                  <ImageView
+                      android:id="@+id/imageView2"
+                      android:layout_width="match_parent"
+                      android:layout_height="290dp"
+                      android:scaleType="centerCrop"
+                      android:src="@drawable/propic"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" />
+
+                  <TextView
+                      android:id="@+id/prLogOut"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="32dp"
+                      android:layout_marginTop="32dp"
+                      android:text="Log out"
+                      android:textColor="@color/white"
+                      android:textStyle="bold"
+                      app:layout_constraintLeft_toLeftOf="parent"
+                      app:layout_constraintTop_toTopOf="parent" />
+
+              </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/u7_mbg"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="24dp"
+                        android:text="Welcome"
+                        android:textColor="#40739e"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:textSize="14dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hai"
+                        android:textColor="#182C61"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:textSize="24dp"
+                        android:layout_marginBottom="50dp"
+                        android:id="@+id/prHiName"
+                        android:layout_marginLeft="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ff793f"
+                        android:text=""
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Profile"
+                        android:textColor="#2f3640"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        app:cardUseCompatPadding="true"
+                        app:cardElevation="5dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardBackgroundColor="#F5F5F5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/ic_baseline_person_24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:id="@+id/prNameD"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:inputType="textEmailAddress"
+                                    android:padding="10dp"
+                                    android:text="" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/ic_baseline_email_24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:id="@+id/prEmailD"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:inputType="textEmailAddress"
+                                    android:padding="10dp"
+                                    android:text="" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/ic_baseline_call_24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:id="@+id/prPhoneD"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:inputType="textEmailAddress"
+                                    android:padding="10dp"
+                                    android:text="" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="10dp"
+                                    android:src="@drawable/ic_baseline_calendar_today_24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"/>
+
+                                <TextView
+                                    android:textColor="@color/black"
+                                    android:id="@+id/prDobD"
+                                    android:padding="10dp"
+                                    android:text=""
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:inputType="textEmailAddress" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
